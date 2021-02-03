@@ -1,0 +1,68 @@
+body
+{
+    background-color: black;
+    font-family: "Yusei Magic";
+}
+
+.post
+{
+    background-color: white;
+    width: 370px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.encabezado
+{
+    margin: 15px 15px 5px 15px;
+    padding: 10px;
+}
+
+.html_icon, .html_nombre, .puntos, .like, .comentario,
+.dm, .bookmark
+{
+    display:inline-block;
+}
+
+.html_icon
+{
+    margin: 5px;
+    float: left;
+}
+
+.html_nombre 
+{
+    font-size: 4px;
+}
+
+.puntos, .bookmark
+{
+    float: right;
+    margin-top: 3px;
+}
+
+.liked_by
+{
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+.elementos
+{
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.like, .comentario, .dm
+{
+    float:left;
+    padding: 2px;
+}
+
+.post_comment
+{
+    margin: 5px 5px 5px 10px;
+    font-size: 12px;
+}
